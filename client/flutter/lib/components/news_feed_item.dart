@@ -53,7 +53,7 @@ class NewsFeedItem extends StatelessWidget {
                 SizedBox(
                   width: 10,
                 ),
-                Flexible(
+                Expanded(
                   child: Text(
                     this.description,
                     style: TextStyle(fontSize: 18),
